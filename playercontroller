@@ -48,7 +48,7 @@ public class PlayerScript : MonoBehaviour
     private void SetScoreText()
     {
         score.text = "Score:" + scoreValue.ToString();
-        if (scoreValue >= 4)
+        if (scoreValue == 4)
         {
             winText.text = "You Win! Game Created by Tyler Trainor!";
         }
